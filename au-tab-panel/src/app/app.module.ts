@@ -4,11 +4,15 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
-import {HttpClientModule} from "@angular/common/http";
+import { HttpClientModule } from "@angular/common/http";
+import { AuTabPanelComponent } from './au-tab-panel/au-tab-panel.component';
+import { AuTabComponent } from './au-tab/au-tab.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuTabPanelComponent,
+    AuTabComponent
   ],
   imports: [
     BrowserModule,
